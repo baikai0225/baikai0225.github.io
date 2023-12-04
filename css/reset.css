@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after { 
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #333333;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+}

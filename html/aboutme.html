@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/aboutme.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <div class="main">
+                <div class="main-left">
+                    <div class="title">I'm</div>
+                    <h3 class="name">Ge Pei</h3>
+                    <p class="text">A bachelor of Computer Science and Technology</p>
+                </div>
+
+                <div class="main-right">
+                    <div class="outer">
+                        <div class="inner">
+                            <img src="../images/index-topphoto.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="main">
+                <ul class="clearfix">
+                    <li>
+                        <a href="index.html"><span>Resume</span></a>
+                    </li>
+
+                    <li class="active">
+                        <a href="aboutme.html"><span>About me</span></a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="main">
+                <div class="main-left">
+                    <div class="innerbox">
+                        <div class="group">
+                            <div class="label">Name</div>
+                            <div class="message">Ge Pei</div>
+                        </div>
+
+                        <div class="group">
+                            <div class="label">Birthday</div>
+                            <div class="message">February 25, 2002</div>
+                        </div>
+
+                        <div class="group">
+                            <div class="label">Mail</div>
+                            <div class="message">1248258096@qq.com</div>
+                        </div>
+
+                        <div class="group">
+                            <div class="label">Phone</div>
+                            <div class="message"> (+86) 159-6242-8711</div>
+                        </div>
+
+                        <div class="group">
+                            <div class="label">Address</div>
+                            <div class="message">Wuxi Taihu University</div>
+                        </div>
+
+                        <div class="group">
+                            <div class="label">Nationality</div>
+                            <div class="message">China</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-right">
+                    <div class="title">
+                        <div class="title-hd">About Me</div>
+                        <h3>Wuxi Taihu University</h3>
+                    </div>
+                    <div class="bigger_text">
+                        <p>A bachelor of Computer Science and Technology</p>
+                    </div>
+                    <div class="text">
+                        <p>Hi! My name is Ge Pei. I a bachelor of Computer Science and Technology, and I'm very passionate and dedicated to my work. In my spare time, I will participate in some club activities, exercise, and accompany my pet cat.</p>
+                    </div>
+                    <div class="button">
+
+                        <a href="#" onclick="show('movie')">VCR</a>
+                    </div>
+
+                    <div class="movie hide" id="movie">
+                        <div class="close" onclick="hide('movie')">
+                            <i class="iconfont icon-close"></i>
+                        </div>
+                        <div class="moviebox">
+                            <!-- autoplay -->
+                            <video class="video" id="vcr" controls >
+                                <source src="../media/movie/vcr.mp4" type="video/ogg">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mode">
+            <div class="main">
+                <div class="title">
+                    <h3>Sparetime</h3>
+                </div>
+                <div class="content">
+                    <div class="photobox">
+                        <img src="../images/sparetime1.jpg" alt="">
+                        <img src="../images/sparetime2.jpg" alt="">
+                        <img src="../images/sparetime3.jpg" alt="">
+                        <img src="../images/sparetime4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="mode">
+            <div class="main">
+                <div class="title">
+                    <h3>Favorite songs</h3>
+                </div>
+                <div class="content">
+                    <div class="content-left">
+                        <img src="../images/closer.jpg" alt="">
+                        <div class="music" onclick="controlAudio()">
+                            <div class="control">
+                                <i id="iconcontrol" class="iconfont icon-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <h4>Closer</h4>
+                        <p>SINGER: <span>The Chainsmokers / Halsey</span></p>
+                        <p>ALBUM: <span>Closer</span></p>
+                        <audio id="audio1">
+                            <source src="../media/sound/closer.m4a" type="audio/mpeg">
+
+                            您的浏览器不支持该音频格式。
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mode">
+            <div class="main">
+                <div class="title">
+                    <h3>Favorite TV show</h3>
+                </div>
+                <div class="content">
+                    <div class="content-left">
+                        <img src="../images/Peaky Blinders.png" alt="">
+                        <!-- <div class="music" onclick="controlAudio()">
+                            <div class="control">
+                                <i id="iconcontrol" class="iconfont icon-play"></i>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="content-right">
+                        <h4>Peaky Blinders</h4>
+                        <p>PLOT TYPE: <span>Plot, Crime</span></p>
+                        <p>PERFORMERS: <span>Otto Bathurst & Tom Harper</span></p>
+                        <audio id="audio1">
+                            <source src="../media/sound/closer.m4a" type="audio/mpeg">
+
+                            您的浏览器不支持该音频格式。
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+
+        function controlAudio() {
+            var myAudio = document.getElementById("audio1");
+            var iconcontrol = document.getElementById("iconcontrol");
+
+
+            if (iconcontrol.classList.value.indexOf('icon-play') != -1) {
+                myAudio.play();
+                iconcontrol.classList = "iconfont icon-pause"
+            } else {
+                myAudio.pause();
+                iconcontrol.classList = "iconfont icon-play"
+            }
+        }
+
+        function show(val) {
+            console.log(val);
+            var el = document.getElementById(val);
+            el.classList.remove('hide')
+        }
+
+        function hide(val){
+            console.log(val);
+            var el = document.getElementById(val);
+            var vcr = document.getElementById("vcr");
+            vcr.pause(); 
+            el.classList.add('hide')
+        }
+
+    
+
+    </script>
+</body>
+
+</html>

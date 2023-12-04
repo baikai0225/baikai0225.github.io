@@ -1,0 +1,191 @@
+.wrapper {
+  background-color: #f0f6f7;
+  padding-bottom: 80px;
+}
+.wrapper .banner {
+  padding-top: 100px;
+}
+.wrapper .banner .main {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .banner .main .main-left {
+  flex: 6;
+}
+.wrapper .banner .main .main-left .title {
+  color: #ff451b;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.wrapper .banner .main .main-left .name {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 22px;
+  color: #222222;
+}
+.wrapper .banner .main .main-left .text {
+  font-size: 24px;
+  margin-bottom: 27px;
+}
+.wrapper .banner .main .main-right {
+  flex: 4;
+  padding-left: 230px;
+}
+.wrapper .banner .main .main-right .outer {
+  width: 100%;
+  height: 360px;
+  background-color: #ff9800;
+  transform: rotate(-36deg);
+}
+.wrapper .banner .main .main-right .outer .inner {
+  width: 100%;
+  height: 360px;
+  background-color: #fff;
+  transform: rotate(36deg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 7px 7px 72px rgba(108, 99, 255, 0.1);
+}
+.wrapper .banner .main .main-right .outer .inner img {
+  width: 100%;
+}
+.wrapper .menu {
+  margin-top: 60px;
+}
+.wrapper .menu .main {
+  width: 1000px;
+  margin: 0 auto;
+}
+.wrapper .menu .main ul {
+  height: 60px;
+  line-height: 60px;
+}
+.wrapper .menu .main ul li {
+  float: left;
+  margin-right: 50px;
+}
+.wrapper .menu .main ul li a {
+  font-size: 22px;
+  color: #222222;
+  font-weight: 700;
+}
+.wrapper .menu .main ul .active a {
+  font-size: 22px;
+  color: #ff9800;
+  font-weight: 700;
+}
+.wrapper .box1 {
+  margin-top: 50px;
+}
+.wrapper .box1 .main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 7px 7px 72px rgba(108, 99, 255, 0.1);
+  border-radius: 15px;
+}
+.wrapper .box1 .main .page {
+  font-size: 21px;
+  color: #ff451b;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.wrapper .box1 .main .group {
+  margin-bottom: 60px;
+}
+.wrapper .box1 .main .group .group-hd {
+  position: relative;
+}
+.wrapper .box1 .main .group .group-hd h3 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 40px;
+  color: #222222;
+}
+.wrapper .box1 .main .group .group-hd span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ff451b;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+}
+.wrapper .box1 .main .group .group-hd span::after {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #ff451b;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .box1 .main .group .group-bd {
+  margin-top: 38px;
+}
+.wrapper .box1 .main .group .group-bd .item {
+  margin-bottom: 45px;
+}
+.wrapper .box1 .main .group .group-bd .item:last-child {
+  margin-bottom: 0;
+}
+.wrapper .box1 .main .group .group-bd .item .item-hd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .box1 .main .group .group-bd .item .item-hd .school h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222222;
+}
+.wrapper .box1 .main .group .group-bd .item .item-hd .school span {
+  font-size: 20px;
+  color: #555;
+}
+.wrapper .box1 .main .group .group-bd .item .item-hd .year {
+  font-size: 20px;
+  color: #ff451b;
+  display: inline-block;
+  border: 1px solid #dddddd;
+  border-radius: 50px;
+  padding: 8px 35px 7px 35px;
+  white-space: nowrap;
+}
+.wrapper .box1 .main .group .group-bd .item .item-bd li {
+  margin-top: 18px;
+  list-style-type: square;
+}
+.wrapper .box1 .main .group .group-bd .item .item-bd li .label {
+  color: #222222;
+  font-weight: 800;
+}
+.wrapper .box1 .main .group .group-bd .item .item-bd li p {
+  margin-top: 4px;
+}
+.wrapper .box1 .main .group .group-bd .item .item-bd li .photo {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .box1 .main .group .group-bd .item .item-bd li .photo .photo-box {
+  width: 50%;
+  text-align: center;
+  border-radius: 6px;
+}
+.wrapper .box1 .main .group .group-bd .item .item-bd li .photo .photo-box img {
+  width: 80%;
+  vertical-align: bottom;
+  box-shadow: 10px 10px 72px #4541404f;
+}

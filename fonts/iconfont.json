@@ -1,0 +1,30 @@
+{
+  "id": "4352302",
+  "name": "个人信息网站personal",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4114021",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "7594157",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "ea82",
+      "unicode_decimal": 60034
+    },
+    {
+      "icon_id": "12201317",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e800",
+      "unicode_decimal": 59392
+    }
+  ]
+}
